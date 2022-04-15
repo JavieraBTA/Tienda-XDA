@@ -1,0 +1,27 @@
+.boton-primary-normal {
+    border: $smoky-black 1px solid;
+    padding: 10px 30px;
+    background-color: $white;
+
+    h6 {
+        color: $smoky-black;
+        font-family: 'Raleway', sans-serif;
+        font-size: $large;
+        font-weight:$bold;
+        margin:0px;
+    }
+}
+
+.boton-primary-small {
+    border: $smoky-black 1px solid;
+    padding: 5px 15px;
+    background-color: $white;
+
+    h6 {
+        color: $smoky-black;
+        font-family: 'Raleway', sans-serif;
+        font-size: $small;
+        font-weight:$bold;
+        margin: 0px;
+    }
+}

@@ -1,0 +1,42 @@
+a {
+    transition: color;
+
+    &:hover {
+
+        color: #fc4b08;
+    }
+}
+
+.boton-primary-small {
+
+    transition: border;
+
+    &:hover {
+        border: 1px $light-gray solid;
+    }
+
+    h6 {
+        transition: all;
+        &:hover,
+        &:focus {
+            color: $light-gray;
+        }
+    }
+}
+
+.boton-primary-normal {
+
+    transition: border;
+
+    &:hover {
+        border: 1px $light-gray solid;
+    }
+
+    h6 {
+        transition: all;
+        &:hover,
+        &:focus {
+            color: $light-gray;
+        }
+    }
+}

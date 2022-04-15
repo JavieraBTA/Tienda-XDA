@@ -1,0 +1,35 @@
+//typography
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+
+//colores
+
+$white: #fff;
+$isabelline: #ececec;
+$light-gray: #d1d1d1;
+$smoky-black: #0c0910;
+$granity-gray: #646266;
+$quick-silver: #a6a5a8;
+
+//font-sizes
+
+$xxx-large: 3.125rem;
+$xx-large: 1.875rem;
+$x-large: 1.25rem;
+$large: 1.125rem;
+$medium: 1rem;
+$small: 0.875rem;
+$x-small: 0.75rem;
+
+//font-weight
+
+$regular: 400;
+$bold: 700;
+
+//breakpoints
+
+$bp-sm: 576px; //celulares
+$bp-md: 768px; //tablets
+$bp-lg: 992px; //Escritorios
+

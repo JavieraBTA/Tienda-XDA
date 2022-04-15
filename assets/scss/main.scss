@@ -1,0 +1,22 @@
+
+//abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+//vendors
+
+//base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/animation';
+//layout
+@import 'layout/navegador';
+@import 'layout/seccion';
+//components
+@import 'components/boton';
+@import 'components/form';
+//pages
+@import 'pages/transiciones'
+
+
+//themes
+

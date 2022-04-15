@@ -1,0 +1,62 @@
+h2 {
+    font-family: 'Old Standard TT', serif;
+    color:$white;
+    font-size: $xx-large;
+    margin:0px;
+
+}
+
+i {
+    color: $smoky-black;
+    font-size: $xxx-large;
+}
+
+a {
+    text-decoration: none;
+    color: $smoky-black;
+
+}
+
+li {
+    display: inline;
+    font-size: $small;
+    color: $smoky-black;
+    font-family: 'Raleway', sans-serif;
+    font-weight:$bold;
+}
+
+h1 {
+    font-family: 'Old Standard TT', serif;
+    color:$smoky-black;
+    font-size: $xxx-large;
+    margin:0px;
+}
+
+p {
+    line-height: 25px;
+    font-family: 'Raleway', sans-serif;
+    color:$granity-gray;
+    font-weight: $regular;
+    text-align: left;
+    font-size: $medium;
+    margin:0px;
+}
+
+label {
+    color: $white;
+    font-family: 'Old Standard TT', serif;
+    font-weight: $regular;
+    color:$light-gray;
+
+    @media (min-width:$bp-lg) {
+        padding-top: 15px;
+    }
+}
+
+h3 {
+    writing-mode: vertical-lr;
+    font-family: 'Old Standard TT', serif;
+    color:$smoky-black;
+    font-size: $large;
+    margin: 0px;
+}

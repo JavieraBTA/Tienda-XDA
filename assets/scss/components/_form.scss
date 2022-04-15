@@ -1,0 +1,17 @@
+
+::placeholder {
+    color: $granity-gray;
+    font-family: 'Raleway', sans-serif;
+    font-size: $small;
+    font-weight: $regular;
+}
+
+input
+{
+    padding: 10px;
+
+    @media (min-width:$bp-md) {
+        padding: 5px;
+
+    }
+}

@@ -1,0 +1,48 @@
+.navegador {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-rows: 90px;
+
+    &-marca {
+        box-sizing: border-box;
+        background-color: $smoky-black;
+        width: 100%;
+        padding: 30px 21px;
+
+
+    }
+
+    &-icono {
+        box-sizing: border-box;
+        text-align: end;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+
+        @media (min-width:$bp-sm) {
+            padding-right: 60px;
+        }
+
+        @media (min-width:$bp-md) {
+            display: none;
+        }
+    }
+
+    &-menu {
+        
+        ul {
+            display: none;
+        }
+
+        @media (min-width:$bp-md) {
+            ul {
+                display: grid;
+                grid-template-columns: 39px 55px 74px 32px;
+                grid-gap: 30px;
+                justify-content: end;
+                padding-top: 20px;
+                padding-right: 70px;
+            }
+        }
+    }
+}
